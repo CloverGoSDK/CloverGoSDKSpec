@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
   s.dependency 'Alamofire', '3.5.1'
   s.dependency 'ObjectMapper', '1.5.0'
 
-  s.ios.vendored_frameworks = 'clovergoclient.framework', 'CloverGoReaderSDK.framework', 'G4XSwiper.framework', 'RPx_BLE.framework', 'RUA_BLE.framework'
+  s.ios.vendored_frameworks = 'clovergoclient.framework', 'CloverGoReaderSDK.framework'
 end
